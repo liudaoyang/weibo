@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
 
         $this->call(UserTableSeeder::class);
         $this->call(StatusesTableSeeder::class);
+        $this->call(FollowersTableSeeder::class);
 
         \Illuminate\Database\Eloquent\Model::reguard();
     }
